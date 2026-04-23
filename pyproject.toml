@@ -1,0 +1,20 @@
+[project]
+name = "scripts-nucor"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Edson Braga",email = "edson89braga@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "streamlit (>=1.56.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
