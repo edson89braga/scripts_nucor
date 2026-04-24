@@ -1,0 +1,13 @@
+services:
+  calculadora-ociosidade:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: calculadora-prazos-cruzamentos:latest
+    container_name: calculadora-prazos-cruzamentos
+    ports:
+      - "8501:8501"
+    restart: unless-stopped
+    environment:
+      - STREAMLIT_BROWSER_GATHER_USAGE_STATS=false
+      - STREAMLIT_SERVER_HEADLESS=true

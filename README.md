@@ -36,13 +36,13 @@ docker compose down
 
 ```bash
 # Build
-docker build -t calculadora-ociosidade .
+docker build -t calculadora-prazos-cruzamentos .
 
 # Run
-docker run -d -p 8501:8501 --name calculadora-ociosidade calculadora-ociosidade
+docker run -d -p 8501:8501 --name calculadora-prazos-cruzamentos calculadora-prazos-cruzamentos
 
 # Parar
-docker stop calculadora-ociosidade && docker rm calculadora-ociosidade
+docker stop calculadora-prazos-cruzamentos && docker rm calculadora-prazos-cruzamentos
 ```
 
 ### Opção 3 — Local (sem Docker)
